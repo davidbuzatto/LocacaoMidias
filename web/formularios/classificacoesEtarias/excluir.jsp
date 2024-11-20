@@ -29,7 +29,7 @@
         </tr>
         <tr>
           <td>
-            <a href="${cp}/formularios/classificacaoEtarias/listagem.jsp">
+            <a href="${cp}/formularios/classificacoesEtarias/listagem.jsp">
               Voltar
             </a>
           </td>

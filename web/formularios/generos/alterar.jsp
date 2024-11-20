@@ -29,7 +29,7 @@
             <input name="descricao"
                    type="text"
                    size="20"
-                   maxlength="30"
+                   maxlength="45"
                    value="${requestScope.genero.descricao}"/>
           </td>
         </tr>

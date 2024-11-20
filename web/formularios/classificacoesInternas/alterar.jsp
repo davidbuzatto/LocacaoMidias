@@ -5,7 +5,7 @@
 
 <html>
   <head>
-    <title>Alterar Tipo</title>
+    <title>Alterar Classificação Interna</title>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
@@ -15,12 +15,12 @@
 
   <body>
 
-    <h1>Alterar Tipo</h1>
+    <h1>Alterar Classificação Interna</h1>
 
-    <form method="post" action="${cp}/processaTipos">
+    <form method="post" action="${cp}/processaClassificacoesInternas">
 
       <input name="acao" type="hidden" value="alterar"/>
-      <input name="id" type="hidden" value="${requestScope.tipo.id}"/>
+      <input name="id" type="hidden" value="${requestScope.classificacaoInterna.id}"/>
 
       <table>
         <tr>
@@ -30,12 +30,25 @@
                    type="text"
                    size="20"
                    maxlength="45"
-                   value="${requestScope.tipo.descricao}"/>
+                   value="${requestScope.classificacaoInterna.descricao}"/>
+          </td>
+        </tr>
+        <tr>
+          <td class="alinharDireita">Valor do Alguel:</td>
+          <td>
+            <input name="valorAluguel"
+                   type="number"
+                   size="8"
+                   placeholder="R$ 9,99"
+                   step="0.01"
+                   min="0"
+                   required
+                   value="${requestScope.classificacaoInterna.valorAluguel}"/>
           </td>
         </tr>
         <tr>
           <td>
-            <a href="${cp}/formularios/tipos/listagem.jsp">
+            <a href="${cp}/formularios/classificacoesInternas/listagem.jsp">
               Voltar
             </a>
           </td>

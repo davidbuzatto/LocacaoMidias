@@ -16,7 +16,7 @@ public class ClassificacaoEtariaServices {
     /**
      * Usa o ClassificacaoEtariaDAO para obter todos as classificações etárias.
      *
-     * @return Lista de ClassificacaoEtarias.
+     * @return Lista de ClassificacaoEtaria.
      */
     public List<ClassificacaoEtaria> getTodos() {
 

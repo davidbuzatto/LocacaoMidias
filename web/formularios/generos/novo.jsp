@@ -28,7 +28,7 @@
             <input name="descricao"
                    type="text"
                    size="20"
-                   maxlength="30"
+                   maxlength="45"
                    required/>
           </td>
         </tr>

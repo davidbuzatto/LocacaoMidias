@@ -5,7 +5,7 @@
 
 <html>
   <head>
-    <title>Novo Tipo</title>
+    <title>Nova Classificação Interna</title>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
@@ -15,9 +15,9 @@
 
   <body>
 
-    <h1>Novo Tipo</h1>
+    <h1>Nova Classificação Interna</h1>
 
-    <form method="post" action="${cp}/processaTipos">
+    <form method="post" action="${cp}/processaClassificacoesInternas">
 
       <input name="acao" type="hidden" value="inserir"/>
 
@@ -33,8 +33,20 @@
           </td>
         </tr>
         <tr>
+          <td class="alinharDireita">Valor do Aluguel:</td>
           <td>
-            <a href="${cp}/formularios/tipos/listagem.jsp">
+            <input name="valorAluguel"
+                   type="number"
+                   size="8"
+                   placeholder="R$ 9,99"
+                   step="0.01"
+                   min="0"
+                   required/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="${cp}/formularios/classificacoesInternas/listagem.jsp">
               Voltar
             </a>
           </td>
