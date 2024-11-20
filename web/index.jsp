@@ -18,6 +18,32 @@
     <h1>Sistema para Locação de Mídias</h1>
     
     <p>
+      <a href="${cp}/formularios/locacoes/listagem.jsp" class="alerta">
+        Locações (Implementar)
+      </a>
+    </p>
+    
+    <hr/>
+    
+    <p>
+      <a href="${cp}/formularios/midias/listagem.jsp" class="alerta">
+        Mídias (Implementar)
+      </a>
+    </p>
+    <p>
+      <a href="${cp}/formularios/exemplares/listagem.jsp" class="alerta">
+        Exemplares (Implementar)
+      </a>
+    </p>
+    
+    <hr/>
+    
+    <p>
+      <a href="${cp}/formularios/atorAtriz/listagem.jsp" class="alerta">
+        Ator/Atriz (Implementar)
+      </a>
+    </p>
+    <p>
       <a href="${cp}/formularios/tipos/listagem.jsp">
         Tipos
       </a>

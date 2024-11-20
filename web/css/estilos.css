@@ -16,6 +16,14 @@ a:hover {
     text-decoration: underline;
 }
 
+.alerta {
+    border: dashed thin #000000;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: #ff3333;
+    background-color: #EEEEEE
+}
+
 .tabelaListagem {
     background: #000000;
 }
