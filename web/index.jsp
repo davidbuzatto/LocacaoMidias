@@ -18,6 +18,29 @@
     <h1>Sistema para Locação de Mídias</h1>
     
     <p>
+      <a href="${cp}/formularios/tipos/listagem.jsp">
+        Tipos
+      </a>
+    </p>
+    <p>
+      <a href="${cp}/formularios/generos/listagem.jsp">
+        Gêneros
+      </a>
+    </p>
+    <p>
+      <a href="${cp}/formularios/classificacoesEtarias/listagem.jsp">
+        Classificações Etárias
+      </a>
+    </p>
+    <p>
+      <a href="${cp}/formularios/classificacoesInternas/listagem.jsp">
+        Classificações Internas
+      </a>
+    </p>
+    
+    <hr/>
+    
+    <p>
       <a href="${cp}/formularios/clientes/listagem.jsp">
         Clientes
       </a>
